@@ -23,4 +23,8 @@ git push -u origin main
 
 ## MCP servers
 
-`.mcp.json` registers the [Magic UI MCP server](https://magicui.design/docs/mcp) (`@magicuidesign/mcp`). Claude Code asks you to approve it the first time you open the project.
+`.mcp.json` registers the [Magic UI MCP server](https://magicui.design/docs/mcp) (`@magicuidesign/mcp`). It also registers the shadcn MCP server, which browses the registries in `components.json` (shadcn and [React Bits](https://reactbits.dev) as `@react-bits`). Claude Code asks you to approve them the first time you open the project.
+
+`components.json` assumes a future React + Tailwind + TypeScript project with `@/` aliases. Adjust the paths once that project exists.
+
+The cloud environment must allow `magicui.design`, `reactbits.dev` and `ui.shadcn.com` for these servers to fetch components.
