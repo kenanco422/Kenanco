@@ -27,4 +27,4 @@ git push -u origin main
 
 `components.json` assumes a future React + Tailwind + TypeScript project with `@/` aliases. Adjust the paths once that project exists.
 
-The cloud environment must allow `magicui.design`, `reactbits.dev` and `ui.shadcn.com` for these servers to fetch components.
+The cloud environment must allow `magicui.design`, `reactbits.dev` and `ui.shadcn.com` for these servers to fetch components. The Magic UI server runs with `NODE_USE_ENV_PROXY=1` so Node's built-in `fetch` goes through the environment's HTTPS proxy. Without a proxy this setting does nothing.
