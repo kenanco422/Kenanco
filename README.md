@@ -20,3 +20,7 @@ git push -u origin main
   The logo generator in `design` needs your own `GEMINI_API_KEY`, `ATLASCLOUD_API_KEY` or `MUAPI_API_KEY`.
 - **impeccable** v4.4.0 (Apache-2.0, `.claude/skills/LICENSE-impeccable`): the `impeccable` skill plus its agents in `.claude/agents/`.
   Its automatic hooks (a check after every edit) are not enabled. They download and run the impeccable engine from GitHub releases.
+
+## MCP servers
+
+`.mcp.json` registers the [Magic UI MCP server](https://magicui.design/docs/mcp) (`@magicuidesign/mcp`). Claude Code asks you to approve it the first time you open the project.
