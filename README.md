@@ -13,3 +13,10 @@ git push -u origin main
 `.claude/skills/` contains 40 marketing skills (CRO, copywriting, SEO, paid ads, email, pricing, launch, etc.) from
 [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) v1.9.0 (MIT, see
 `.claude/skills/LICENSE-marketing-skills`). Claude Code loads them automatically when working in this repo.
+
+### Design skills
+
+- **ui-ux-pro-max** (MIT, `.claude/skills/LICENSE-ui-ux-pro-max`): `ui-ux-pro-max`, `design`, `design-system`, `brand`, `banner-design`, `slides`, `ui-styling`.
+  The logo generator in `design` needs your own `GEMINI_API_KEY`, `ATLASCLOUD_API_KEY` or `MUAPI_API_KEY`.
+- **impeccable** v4.4.0 (Apache-2.0, `.claude/skills/LICENSE-impeccable`): the `impeccable` skill plus its agents in `.claude/agents/`.
+  Its automatic hooks (a check after every edit) are not enabled. They download and run the impeccable engine from GitHub releases.
